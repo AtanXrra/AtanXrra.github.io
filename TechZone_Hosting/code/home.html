@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>TechZone</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        #carouselExampleAutoplaying {
+            width: 100%;
+        }
+
+        .text-white {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-light shadow">
+        <div class="container">
+            <a class="navbar-brand" href="home.html"><img src="../assets/logo/Logo & Teks.png" width="250px" alt="techzone"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="bi bi-list"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="laptop.html">Laptop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="allinpc.html">All In Pc</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="printer.html">PRINTER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cpu.html">CPU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="peripheral.html">PERIPHERAL</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn1 px-3" type="submit">Search</button>
+                    <a href="cart.html" class="text-decoration-none"><span><i class="bi bi-cart2"></i></span>
+                        <div class="position-relative rounded-circle cart">
+                            <span class="text-black text-decoration-none">4</span></a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <!-- CAROUSEL -->
+    <div id="carouselExampleAutoplaying" class="carousel slide mt-5 pt-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assets/carousel/Desktop - 1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/carousel/Desktop - 2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/carousel/Desktop - 3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+
+    <!-- CARD LAPTOP -->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+            <h1>LAPTOP</h1>
+        </div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <section>
+        <div class="container px-4 px-lg-5 mt-2">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div data-aos="fade-up" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto laptop/ACER ANSPIRE 3 A314 (Rp4.199.000).png" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 50px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Fancy Product</h5>
+                                <!-- Product price-->
+                                $40.00 - $80.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">View options</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto laptop/ASUS E410MAO (Rp 4.344.000).png" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 0px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Special Item</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$20.00</span>
+                                $18.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                    
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto laptop/ASUS VIOBOOK 128GB storage ($300).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 0px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Sale Item</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$50.00</span>
+                                $25.00
+                            </div>
+                        </div>
+                        <!-- Product acti   ons-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300"class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto laptop/AVITA Essential (Rp4.829.000).png" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 75px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Popular Item</h5>
+                                <!-- Product price-->
+                                $40.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARD ALL IN PC -->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+            <h1>ALL IN PC</h1>
+        </div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <section>
+        <div class="container px-4 px-lg-5 mt-2">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div data-aos="fade-up" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto PC all in one/ACER PC All In One C22-1700 i3 gen 12 (Rp8.099.000).png" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 60px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Fancy Product</h5>
+                                <!-- Product price-->
+                                $40.00 - $80.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">View options</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto PC all in one/ACER PC All in One C24-1651 i5-1135G7 (Rp11.099.000).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 0px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Special Item</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$20.00</span>
+                                $18.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto PC all in one/ASUS AIO 22 V22F (Rp 4.999.000).JPG" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 60px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Sale Item</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$50.00</span>
+                                $25.00
+                            </div>
+                        </div>
+                        <!-- Product acti   ons-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto PC all in one/ASUS PC All In One 3202WBAK i3 Gen 12 (Rp7.849.000).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 0px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Popular Item</h5>
+                                <!-- Product price-->
+                                $40.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARD PC printer -->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+            <h1>Printer</h1>
+        </div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <section>
+        <div class="container px-4 px-lg-5 mt-2">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div data-aos="fade-up" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto printer/CANON PRINTER PIXMA G2020 Printt Scan Copy ($150).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 0px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Fancy Product</h5>
+                                <!-- Product price-->
+                                $40.00 - $80.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">View options</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto printer/Epson EcoTank MonoChrome M2170 lnk Tank Printer ($200).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 100px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Special Item</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$20.00</span>
+                                $18.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto printer/Printer Epson L3210 ($100).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 0px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Sale Item</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$50.00</span>
+                                $25.00
+                            </div>
+                        </div>
+                        <!-- Product acti   ons-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300"class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto printer/Printer Epson ECO Tank L121 ($150).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 100px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Popular Item</h5>
+                                <!-- Product price-->
+                                $40.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARD CPU -->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+            <h1>CPU</h1>
+        </div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <section>
+        <div class="container px-4 px-lg-5 mt-2">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div data-aos="fade-up" class="col mb-5">
+                    <div class="card h-100 shad p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto CPU/AWD-IT HYTE Y60 Intel i5 Gen 13 14 core RTX 4070 Ti (Rp37.999.000).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" >
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Fancy Product</h5>
+                                <!-- Product price-->
+                                $40.00 - $80.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">View options</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto CPU/CORE i5 4th Gen 8GB RAM 1TB HDD PC ($200).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Special Item</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$20.00</span>
+                                $18.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                       
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto CPU/Core ii5-2400 Procesor DDR3 8GB RAM HD Graphics ($100).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Sale Item</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$50.00</span>
+                                $25.00
+                            </div>
+                        </div>
+                        <!-- Product acti   ons-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/foto CPU/DELL RGB GAMING DEKSTOP PC CORE i5 16GB  RAM ($300).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Popular Item</h5>
+                                <!-- Product price-->
+                                $40.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARD PERIPHERAL -->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+            <h1>PERIPHERAL</h1>
+        </div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <section>
+        <div class="container px-4 px-lg-5 mt-2">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div data-aos="fade-up" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/Peripherael/Corsair k70 RGB ($150).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 100px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Fancy Product</h5>
+                                <!-- Product price-->
+                                $40.00 - $80.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">View options</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/Peripherael/Corsair M65 RGB ELITE ($60).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 0px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Special Item</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$20.00</span>
+                                $18.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/Peripherael/Logitech G PRO X ($130).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4" style="margin-top: 60px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Sale Item</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$50.00</span>
+                                $25.00
+                            </div>
+                        </div>
+                        <!-- Product acti   ons-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300" class="col mb-5">
+                    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="../assets/Peripherael/steelseries qck prism xl ($50).jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4 " style="margin-top: 100px;">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Popular Item</h5>
+                                <!-- Product price-->
+                                $40.00
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-add" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <!-- <div class="container my-5"> -->
+
+    <footer class="text-white text-center text-lg-start bg-dark">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row mt-4">
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4 text-success"><img src="../assets/logo/Logo & Teks.png" width="250px" alt="techzone"></h5>
+
+                    <p>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum deleniti atque corrupti.
+                    </p>
+
+                    <p>
+                        Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                        molestias.
+                    </p>
+
+                    <div class="mt-4">
+                        <!-- Facebook -->
+                        <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
+                        <!-- Dribbble -->
+                        <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-dribbble"></i></a>
+                        <!-- Twitter -->
+                        <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
+                        <!-- Google + -->
+                        <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                class="fab fa-google-plus-g"></i></a>
+                        <!-- Linkedin -->
+                    </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+                    <div class="form-outline form-white mb-4">
+                        <input type="text" id="formControlLg" class="form-control form-control-lg" />
+                        <label class="form-label" for="formControlLg">Search</label>
+                    </div>
+
+                    <ul class="fa-ul" style="margin-left: 1.65em;">
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Warsaw,
+                                00-967,
+                                Poland</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                class="ms-2">contact@example.com</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 48 234
+                                567
+                                88</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+                    <table class="table text-center text-white">
+                        <tbody class="fw-normal">
+                            <tr>
+                                <td>Mon - Thu:</td>
+                                <td>8am - 9pm</td>
+                            </tr>
+                            <tr>
+                                <td>Fri - Sat:</td>
+                                <td>8am - 1am</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday:</td>
+                                <td>9am - 10pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- </div> -->
+    <!-- End of .container -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
